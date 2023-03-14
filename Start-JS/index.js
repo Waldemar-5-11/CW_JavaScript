@@ -21,6 +21,16 @@ console.log(num);//3
 
 
 
+// let appleColor= 'green';
+
+// if (appleColor==='red'){
+//     console.log('apple red');
+// } else {
+//     console.log('apple color not red');
+// }
+
+
+
 // let cat= 1;
 // console.log(cat); 
 
@@ -28,7 +38,7 @@ console.log(num);//3
 // console.log(dog); 
 
 // let rat= 4;
-// console.log(dog);
+// console.log(rat);
 
 // let animal=cat+dog+rat;
 
@@ -39,11 +49,17 @@ console.log(num);//3
 // }
 
 
-
-let appleColor= 'green';
-
-if (appleColor==='red'){
-    console.log('apple red');
-} else {
-    console.log('apple color not red');
-}
+let cat = 1 ; 
+let dog = 2 ; 
+let rat = 4 ; 
+let animals = 0; 
+if(cat>2){ 
+animals += cat; 
+} 
+if(dog>2){ 
+animals += dog; 
+} 
+if(rat>2){ 
+animals += rat; 
+} 
+alert(animals);
